@@ -1,0 +1,9 @@
+function repeatStringNumTimes(str, num) {
+  let copy = str, res = '';
+  for (let i = 0; i < num; i++) {
+    res += copy;
+  }
+  return res;
+}
+
+repeatStringNumTimes("abc", 3);
